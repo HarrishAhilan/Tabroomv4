@@ -19,7 +19,7 @@ export async function getCategories(req: Request, res: Response) {
 	res.json(categories);
 }
 export function createCategory(req: Request, res: Response) {
-	throw NotImplemented(req,res,'function not implemented');
+	return NotImplemented(req,res,'function not implemented');
 }
 
 export async function deleteCategory(req: Request, res: Response) {
@@ -35,7 +35,7 @@ export async function deleteCategory(req: Request, res: Response) {
 }
 
 export function updateCategory(req: Request, res: Response) {
-	throw NotImplemented(req,res,'function not implemented');
+	return NotImplemented(req,res,'function not implemented');
 }
 
 export default {
